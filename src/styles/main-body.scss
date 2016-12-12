@@ -1,0 +1,52 @@
+#main-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    .main-header {
+        .header-text {
+            
+        }
+    }
+    
+    .main-body {
+        .option-list-container {
+            ul.option-list {
+                .option-list-item {
+                    .type-name {
+
+                    }
+
+                    .type-price {
+
+                    }
+
+                    .quantity-container {
+                        .subtract-item {
+
+                        }
+
+                        .add-item {
+
+                        }
+                    }
+                }
+            }
+        }
+        
+        .ui-actions-container {
+            font: 16px;
+            
+            .action-button {
+                border: 1px solid #cecece;
+                border-radius: 3px;
+                background: #0000ff;
+            }
+        }
+    }
+}
+
+
+#main-body {
+
+}

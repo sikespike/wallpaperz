@@ -32,6 +32,7 @@
     "jshint": "^2.x",
     "node-normalize-scss": "^1.4.0",
     "pump": "^1.0.1",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "ps-node": "0.1.4"
   }
 }

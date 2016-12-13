@@ -1,40 +1,46 @@
-#main-nav.main-nav-panel {
-    height: 50px;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    width:100%;
-    position: fixed;
-    top: 0;
-    text-align: center;
+#main-container {
+    #main-nav.main-nav-panel {
+        height: 50px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        width:100%;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #263238;
 
-    .view-panel-name {
-        text-align: center;
-        font-size: 50px;
-        top: 7px;
-        position: relative;
-    }
-}
-
-#main-menu-wrapper  {
-
-    &.float-menu-panel {
-        .main-menu-icon {
-            width: 40px;
-            position: absolute;
-            top: 15px;
-            left: 12px;
-
-            display: inline-block;
-            cursor: pointer;
-
-            .bar1, .bar2, .bar3 {
-                width: 35px;
-                height: 5px;
-                background-color: #cecece;
-                margin: 6px 0;
-                transition: 0.4s;
-            }
+        .view-panel-name {
+            text-align: center;
+            font-size: 18px;
+            top: 7px;
+            color: #fff;
+            position: relative;
         }
     }
+
+    /*
+    #main-menu-wrapper  {
+
+        &.float-menu-panel {
+            .main-menu-icon {
+                width: 40px;
+                position: absolute;
+                top: 15px;
+                left: 12px;
+
+                display: inline-block;
+                cursor: pointer;
+
+                .bar1, .bar2, .bar3 {
+                    width: 35px;
+                    height: 5px;
+                    background-color: #cecece;
+                    margin: 6px 0;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }*/
 }

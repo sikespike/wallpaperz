@@ -72,11 +72,11 @@ gulp.task("build", function(){
 
 gulp.task("server-start", function(){
     //1. run your script as a server
-    var server = gls.new('index.js');
+    var server = gls.new('./src/index.js');
     server.start();
 
     // Note: try wrapping in a function if getting an error like `TypeError: Bad argument at TypeError (native) at ChildProcess.spawn`
-    gulp.watch("index.js", function() {
+    gulp.watch("./src/index.js", function() {
         server.start.bind(server)()
     });
 });
@@ -91,7 +91,7 @@ gulp.task("kill-server", function(){
         }
 
         resultList.forEach(function(process){
-            if(process.arguments == "server/index.js"){
+            if(process.arguments == "./src/index.js"){
                 console.log("Shutting down server running on port 3000");
 
                 ps.kill(process.pid, {signal: 9}, function(e) {
